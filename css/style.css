@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.textobuy{padding: 80px 20px;}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #fff;
+}
+
+
+.intro{padding: 40px 0;}
+.title h1{font-size: 60px;
+		font-weight:400;}
+.intro p{font-size: 20px;
+		color:#848992;}
+
+.espacio {padding: 60px 0;}
+.roundbox{border-radius: 12px;
+background-color: #FFFFFF; padding-top: 15px; margin-top: 50px;margin-bottom: 50px;}
+
+
+#formregistro{background-color: #FFF;
+			
+			}
+
+.btn-block{border-radius: 12px;
+background-color: #FBBD32;
+color: #000000;
+}
+
+#sec-header{padding: 10px 0;}
+#sec-slideshow{padding: 15px 0px;}
+#sec-pop{padding: 20px 0px; background-color: #1294CE;}
+
+
+#sec-slides{
+	background-image: url(../img/slide-1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 25%;
+	padding-bottom: 40px;
+}
+
+#newsletter{background-color: #1294CE;}
+#newsletter h3{color:#1294CE;}
+.form-group{width: 750px;
+padding: 0px;
+margin-bottom: 25px;
+}
+#newsletter input{border-radius: 12px;}
+#newsletter img{padding-left: 15px;}
+
+#formregistro{align-content: center;}
+
+
+
+footer{padding: 18px 0px;}
+@media (max-width:480px) {#newsletter input{max-width: 200px;}
+
+
+
+/*medidas para sm (tablet)*/
+@media (min-width:480px) and (max-width:768px)
+	
+{#newsletter input{max-width: 300px;}
+
+/*medidas para md hasta xl (PC)*/
+@media (min-width:768px) {}
+	
+
+
